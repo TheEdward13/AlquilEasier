@@ -447,6 +447,7 @@ namespace SalesSystemGUIApp {
         labelNombreCompleto->Font = gcnew System::Drawing::Font("Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular);
         // Agregar el Label al formulario
         this->Controls->Add(labelNombreCompleto);
+        showHorario();
     }
 
            void comboBoxPisos_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {

@@ -191,6 +191,8 @@ namespace SalesSystemGUIApp {
 
 				   String^ resultString = result->ToString();
 
+				   // resultString ES LA VARIABLE RETORNADA POR EL ARDUINO, IMPORTANTE!, VALOR VÁLIDO ES != "50\r" 
+
 				   if (resultString->Equals("50\r")) {
 					   MessageBox::Show("No se ha logrado iniciar el sistema de cochera.");
 				   }
